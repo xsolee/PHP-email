@@ -1,4 +1,4 @@
-# PHP
+PHP
 # Test and package your PHP project.
 # Add steps that run tests, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/php
@@ -22,5 +22,5 @@ steps:
     php -version
   displayName: 'Use PHP version $(phpVersion)'
 
-#- script: composer install --no-interaction --prefer-dist
-#  displayName: 'composer install'
+- script: composer install --no-interaction --prefer-dist
+  displayName: 'composer install'
